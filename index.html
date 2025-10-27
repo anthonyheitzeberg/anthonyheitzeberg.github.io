@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anthony Heitzeberg — Portfolio</title>
+  <meta name="description" content="Portfolio of Anthony Heitzeberg — developer, builder, and problem solver." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:," />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Anthony Heitzeberg</a>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 class="name">Anthony Heitzeberg</h1>
+          <p class="tagline">Building meaningful digital experiences — web, tools, and small systems.</p>
+          <p class="ctas">
+            <a class="btn" href="#projects">View Work</a>
+            <a class="btn ghost" href="#contact">Get in Touch</a>
+          </p>
+        </div>
+        <div class="hero-right">
+          <div class="profile-card" aria-hidden="true">
+            <div class="profile-photo">AH</div>
+            <div class="profile-details">
+              <p><strong>Full‑stack developer</strong></p>
+              <p>HTML • CSS • JavaScript • Node • React</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <div class="grid project-list">
+          <article class="card reveal">
+            <h3>Project One</h3>
+            <p>Short description of project one. Tech stack, role, and outcome.</p>
+            <p class="meta">HTML • CSS • JavaScript</p>
+            <p><a class="link" href="#" target="_blank" rel="noopener">Live</a> · <a class="link" href="#" target="_blank" rel="noopener">Source</a></p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Project Two</h3>
+            <p>Short description of project two. What you built and why it matters.</p>
+            <p class="meta">React • Node • API</p>
+            <p><a class="link" href="#" target="_blank" rel="noopener">Live</a> · <a class="link" href="#" target="_blank" rel="noopener">Source</a></p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Project Three</h3>
+            <p>Short description of project three. UX highlights or performance wins.</p>
+            <p class="meta">Design • Accessibility</p>
+            <p><a class="link" href="#" target="_blank" rel="noopener">Case study</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About</h2>
+        <div class="about-inner">
+          <p>Hello — I’m Anthony. I design and build web applications and tools with a focus on clarity, performance, and accessible UX. I enjoy solving tricky problems that sit at the intersection of product and engineering.</p>
+          <ul>
+            <li>Building front-end interfaces and interactive experiences</li>
+            <li>Designing simple APIs and small back-end services</li>
+            <li>Optimizing performance and accessibility</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Interested in working together or want to say hello? Reach out:</p>
+        <p>
+          <a class="link" href="mailto:hello@example.com">hello@example.com</a>
+        </p>
+        <p class="socials">
+          <a class="link" href="#" target="_blank" rel="noopener">GitHub</a> ·
+          <a class="link" href="#" target="_blank" rel="noopener">LinkedIn</a> ·
+          <a class="link" href="#" target="_blank" rel="noopener">Twitter</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>&copy; <span id="year"></span> Anthony Heitzeberg. Built with care.</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
